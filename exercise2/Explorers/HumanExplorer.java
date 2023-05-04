@@ -4,25 +4,25 @@ import Planets.*;
 
 public class HumanExplorer implements Explorer {
    public void visit(Mars mars) {
-      System.out.println("Exploring a Planet");
+      System.out.println("Gala Mars");
 
    }
 
    public void visit(Saturn saturn) {
 
-      System.out.println("Libot sa saturn");
+      System.out.println("Gala Saturn");
    }
 
    public void visit(Mercury mercury) {
-      System.out.println("Deploying tools specific to Saturn... exploring life");
+      System.out.println("Gala Mercury");
    }
 
    public void visit(Earth earth) {
-      System.out.println(" gala earth");
+      System.out.println("Gala earth");
    }
 
    public void visit(Jupiter jupiter) {
-      System.out.println("gala jupiter");
+      System.out.println("Gala jupiter");
    }
 
    public void visit(Venus venus) {
@@ -38,6 +38,6 @@ public class HumanExplorer implements Explorer {
    }
 
    public void visit(Uranus uranus) {
-      System.out.println("gala uranus");
+      System.out.println("Gala Uranus");
    }
 }
