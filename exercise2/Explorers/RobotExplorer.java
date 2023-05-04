@@ -5,40 +5,40 @@ import Planets.*;
 public class RobotExplorer implements Explorer {
 
     public void visit(Mars mars) {
-        System.out.println("Exploring a Planet");
+        System.out.println("Robot Gala Mars");
 
     }
 
     public void visit(Saturn saturn) {
 
-        System.out.println("Libot sa saturn");
+        System.out.println("Robot Gala Saturn");
     }
 
     public void visit(Mercury mercury) {
-        System.out.println("Deploying tools specific to Saturn... exploring life");
+        System.out.println("Robot Gala Mercury");
     }
 
     public void visit(Earth earth) {
-        System.out.println(" gala earth");
+        System.out.println("Robot Gala earth");
     }
 
     public void visit(Jupiter jupiter) {
-        System.out.println("gala jupiter");
+        System.out.println("Robot Gala jupiter");
     }
 
     public void visit(Venus venus) {
-        System.out.println("Gala Venus");
+        System.out.println("Robot Gala Venus");
     }
 
     public void visit(Neptune neptune) {
-        System.out.println("Gala Neptune");
+        System.out.println("Robot Gala Neptune");
     }
 
     public void visit(Pluto pluto) {
-        System.out.println("Gala Pluto");
+        System.out.println("Robot Gala Pluto");
     }
 
     public void visit(Uranus uranus) {
-        System.out.println("gala uranus");
+        System.out.println("Robot Gala uranus");
     }
 }
