@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.friendController">
+   <children>
+      <ImageView fx:id="per" fitHeight="124.0" fitWidth="139.0" layoutX="336.0" layoutY="52.0">
+         <image>
+            <Image url="@../images/Jasper.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ri" fitHeight="117.0" fitWidth="128.0" layoutX="569.0" layoutY="59.0">
+         <image>
+            <Image url="@../images/Rica.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ter" fitHeight="124.0" fitWidth="120.0" layoutX="139.0" layoutY="56.0">
+         <image>
+            <Image url="@../images/Terrence.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="terBtn" layoutX="161.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: black; -fx-background-color: ;" text="Ter" textFill="#ff5100">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="jay" fitHeight="124.0" fitWidth="128.0" layoutX="470.0" layoutY="272.0">
+         <image>
+            <Image url="@../images/Arjay.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="perBtn" layoutX="355.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: black;" text="Per" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="tinBtn" layoutX="172.0" layoutY="417.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="42.0" prefWidth="174.0" style="-fx-background-color: black;" text="Tin" textFill="#b26e6e">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="tin" fitHeight="124.0" fitWidth="120.0" layoutX="199.0" layoutY="278.0">
+         <image>
+            <Image url="@../images/Justin.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="riBtn" layoutX="582.0" layoutY="179.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: black;" text="Rica" textFill="#467dff">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="jayBtn" layoutX="462.0" layoutY="421.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="145.0" style="-fx-background-color: black;" text="Jay" textFill="#c93c3c">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
