@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label fx:id="name1" layoutX="14.0" layoutY="281.0" prefHeight="17.0" prefWidth="91.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="name2" layoutX="14.0" layoutY="297.0" prefHeight="17.0" prefWidth="91.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="name3" layoutX="14.0" layoutY="312.0" prefHeight="17.0" prefWidth="91.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="price1" layoutX="98.0" layoutY="281.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="price2" layoutX="98.0" layoutY="299.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="price3" layoutX="98.0" layoutY="314.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="qty1" layoutX="151.0" layoutY="281.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="qty2" layoutX="151.0" layoutY="299.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="qty3" layoutX="151.0" layoutY="314.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="lineTotalAmount1" layoutX="216.0" layoutY="281.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="lineTotalAmount2" layoutX="216.0" layoutY="299.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label fx:id="lineTotalAmount3" layoutX="216.0" layoutY="314.0" text="Label">
+         <font>
+            <Font size="9.0" />
+         </font></Label>
+      <Label layoutX="5.0" layoutY="264.0" text="PRODUCT NAME">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label layoutX="96.0" layoutY="264.0" text="PRICE">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label layoutX="138.0" layoutY="263.0" text="QUANTITY" />
+      <Label layoutX="205.0" layoutY="264.0" text="AMOUNT">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label layoutX="114.0" layoutY="347.0" text="TOTAL AMOUNT :" />
+      <Label fx:id="finalAmount" layoutX="213.0" layoutY="347.0" text="Label" />
+      <ImageView fitHeight="75.0" fitWidth="178.0" layoutX="35.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../321123321.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="295.0" layoutX="-21.0" layoutY="166.0">
+         <image>
+            <Image url="@../../../../Downloads/—Pngtree—black%20and%20white%20icons%20of_7554658.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="63.0" layoutY="103.0" text="I K E A PHILIPPINES" />
+      <Label layoutX="75.0" layoutY="119.0" text="www.IKEA.com" />
+      <Label layoutX="33.0" layoutY="136.0" text="10am - 8pm Monday to Friday" />
+      <Label layoutX="24.0" layoutY="149.0" text="10am - 6pm Saturday and Sunday" />
+      <Label layoutX="50.0" layoutY="166.0" text="Phone: +69 9773256211" />
+      <Line endX="152.0" layoutX="101.0" layoutY="192.0" startX="-100.0" />
+      <Line endX="-10.0" endY="35.0" layoutX="98.0" layoutY="303.0" startX="-10.0" startY="-39.0" />
+      <Line endX="-10.0" endY="35.0" layoutX="144.0" layoutY="303.0" startX="-10.0" startY="-39.0" />
+      <Line endX="-10.0" endY="35.0" layoutX="214.0" layoutY="301.0" startX="-10.0" startY="-39.0" />
+      <Label layoutX="98.0" layoutY="389.0" text="Tax Invoice" />
+      <Label layoutX="51.0" layoutY="406.0" text="Cashier-number: 05251992" />
+   </children>
+</AnchorPane>
